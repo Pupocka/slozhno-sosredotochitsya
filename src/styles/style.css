@@ -1,6 +1,6 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
- /* page */
+/* page */
 
 .page {
   margin: 0 auto;
@@ -31,8 +31,8 @@
   background-color: var(--accent-color);
   font-weight: 700;
   line-height: 130%;
+  font-size: 18px;
 }
-
 
 /* header */
 
@@ -72,7 +72,7 @@
 @media (min-width: 768px) {
 
   .decorated-zone {
-    min-block-size: 97vh;
+    min-block-size: 96vh;
   }
 }
 
@@ -113,7 +113,7 @@
 .header__theme-menu-list {
   display: flex;
   flex-direction: column;
-  gap: 13px;
+  gap: 11px;
 }
 
 @media (min-width: 768px) {
@@ -126,9 +126,8 @@
 @media (min-width: 1024px) {
 
   .header__theme-menu {
-
     justify-self: center;
-    align-items: self-start;
+    align-self: self-start;
     margin: 0;
   }
 
@@ -149,14 +148,15 @@
 @media (min-width: 768px) {
 
   .header__heading {
-    margin: 20px 0 0 -10px;
+    margin: 13px 0 0 -20px;
   }
 }
 
 @media (min-width: 1024px) {
 
   .header__heading {
-    margin: 45px 0 0 -10px;
+    margin: 46px 0 0 -20px;
+    font-size: var(--heading-fs-desktop);
   }
 }
 
@@ -193,19 +193,10 @@
   cursor: pointer;
 }
 
+/* main */
 
-
-
-
-
-
-
-
-
-/* .main {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
+.why {
+  margin: 50px 0 0;
 }
 
 .heading {
@@ -214,28 +205,32 @@
   margin: 10px 0 20px;
   font-weight: 700;
   color: var(--accent-color);
-} */
+}
 
+.why__list-title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+}
 
+.list-text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  margin: 10px 0 20px;
+}
 
+.what {
+  margin: 51px 0 0;
+}
 
+.how {
+  margin: 51px 0 0;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.how__list-heading {
+  margin-bottom: 20px;
+}
 
 /* gallery */
 
@@ -250,7 +245,7 @@
 .gallery__list {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   margin: 10px 0 0;
 }
 
@@ -295,11 +290,10 @@
     object-position: top;
     block-size: 100%;
   }
-
 }
 
 /* footer */
- 
+
 .footer {
   display: grid;
 }

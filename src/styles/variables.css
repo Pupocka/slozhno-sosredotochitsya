@@ -13,5 +13,4 @@
   --heading-fs-desktop: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
   --font-family: 'IBM Plex mono';
-  
 }
