@@ -8,8 +8,15 @@
   --bg-color: #fff1f7;
   --text-color: #353430;
   --accent-color: #ff8dcb;
+  --accent-heading-color: #353430;
+  --accent-decor-color: #353430;
+  --decor-color: #353430;
+  --decor-button-color: #353430;
   --heading-color: #ffc2e6;
   --cover-image: url(../images/cover-image-light.png);
   --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
-  --font-family: 'IBM Plex mono';
+}
+
+.page.theme_light .decorated-zone-icon {
+  display: none;
 }
