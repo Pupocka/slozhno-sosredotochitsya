@@ -18,6 +18,7 @@
   --decor-color: #ff0070;
   --accent-color: #ff0070;
   --heading-color: #db00ff;
+  --hover-button-color: 1px solid rgba(255, 0, 112, 0.4);
   --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
   --cover-image: url(../images/cover-image-dark.png);
   }
@@ -32,6 +33,7 @@
     --accent-decor-color: #353430;
     --decor-color: #353430;
     --heading-color: #ffc2e6;
+    --hover-button-color: 1px solid rgba(50, 49, 45, 0.4);
     --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
     --cover-image: url(../images/cover-image-light.png);
   }

@@ -12,6 +12,7 @@
   --accent-decor-color: #353430;
   --decor-color: #353430;
   --heading-color: #ffc2e6;
+  --hover-button-color: 1px solid rgba(50, 49, 45, 0.4);
   --cover-image: url(../images/cover-image-light.png);
   --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
 }
