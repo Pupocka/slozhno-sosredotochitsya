@@ -12,11 +12,25 @@
   --accent-decor-color: #353430;
   --decor-color: #353430;
   --heading-color: #ffc2e6;
+  --rec-decor-color: transparent;
   --hover-button-color: 1px solid rgba(50, 49, 45, 0.4);
   --cover-image: url(../images/cover-image-light.png);
   --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
 }
 
-.page.theme_light .decorated-zone-icon {
-  display: none;
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #fff1f7;
+    --text-color: #353430;
+    --accent-color: #ff8dcb;
+    --accent-heading-color: #353430;
+    --accent-decor-color: #353430;
+    --decor-color: #353430;
+    --heading-color: #ffc2e6;
+    --rec-decor-color: transparent;
+    --hover-button-color: 1px solid rgba(50, 49, 45, 0.4);
+    --heading-text-shadow: text-shadow: 4px 4px 0 var(--accent-color);
+    --cover-image: url(../images/cover-image-light.png);
+  }
 }
